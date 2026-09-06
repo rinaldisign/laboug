@@ -247,7 +247,14 @@ export const contents = [
     id: "content-peta",
     title: "The Location",
     type: "embed",
-    embedHtml: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17071751.150703102!2d-141.90201064999994!3d37.77483669999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f635c6a65c1%3A0x253c64bf220bf6f0!2sLUMA%20Hotel%20San%20Francisco!5e1!3m2!1sen!2sjp!4v1788608090583!5m2!1sen!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>',
+    embedHtml: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4772.09001026853!2d-76.18198988815388!3d25.176126132459327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x893aa4a0f7d8607f%3A0x81eeb234f9ae8054!2sLa%20Bougainvillea!5e1!3m2!1sen!2sjp!4v1788677515355!5m2!1sen!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>',
+  },
+    {
+    id: "content-booking",
+    title: "Book Now",
+    type: "link",
+    link: "https://www.labougainvillea.com",
+    linkLabel: "Book Now",
   },
 ];
 
