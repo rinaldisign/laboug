@@ -49,12 +49,21 @@ views.forEach((v) => {
 function loadFloor(id) {
   const floor = floors.find((f) => f.id === id);
   if (!floor) return;
-  denahImg.src = floor.image;
   denahImg.alt = floor.name || floor.label;
   points = [];
   resetCoordDisplay();
   renderPointList();
   renderDots();
+
+  // #denah-viewport tidak punya tinggi tetap (lihat css/denah-finder.css),
+  // jadi begitu gambar selesai dimuat, tinggi container disamakan dengan
+  // rasio asli gambar (aspect-ratio) supaya box-nya kelihatan & persentase
+  // x/y yang dihasilkan cocok 1:1 dengan tampilan gambar (tidak ada celah
+  // kosong dari object-fit: contain).
+  denahImg.onload = () => {
+    denahViewport.style.aspectRatio = `${denahImg.naturalWidth} / ${denahImg.naturalHeight}`;
+  };
+  denahImg.src = floor.image;
 }
 
 floorSelect.addEventListener("change", () => loadFloor(floorSelect.value));
