@@ -38,7 +38,7 @@
  */
 
 export const projectName = "Labougainvillea";
-export const metaDescription = "Coboy Bar - 360° Panorama by Rinaldisign.";
+export const metaDescription = "Labougainvillea 360° Panorama by Rinaldisign.";
 
 /* ============================================================
    1) DENAH (FLOORPLAN)
