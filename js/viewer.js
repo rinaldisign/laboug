@@ -206,7 +206,7 @@ if (shareBtn) {
   shareBtn.addEventListener("click", async () => {
     const shareData = {
       title: document.title,
-      text: `${projectName} Virtual Tour — Earnest Architects`,
+      text: `${projectName} Virtual Tour`,
       url: window.location.href,
     };
     if (navigator.share) {
