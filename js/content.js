@@ -136,6 +136,7 @@ export const views = [
         { pitch: -5.72, yaw: -178.5, target: "view2" },
         { type: "content", pitch: 0.39, yaw: -71.97, target: "content-peta" },
         { type: "content", pitch: -26.84, yaw: -24.4, target: "content-booking" },
+        { type: "content", pitch: 4.66, yaw: 2.91, target: "content-video" },
     ],
   },
   {
