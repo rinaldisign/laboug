@@ -258,8 +258,8 @@ export const contents = [
     linkLabel: "Book Now",
   },
      {
-    id: "content-video-profil",
-    title: "Video Profil Coboy Bar",
+    id: "content-video",
+    title: "Video Profil",
     type: "youtube",
     youtubeUrl: "https://www.youtube.com/watch?v=BP53wqxsu7M",
   },
