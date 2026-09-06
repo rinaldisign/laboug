@@ -133,8 +133,9 @@ export const views = [
     image: "assets/pano1.jpg",
     yawOffset: 0,
     pitchPoints: [
-       { pitch: -6.75, yaw: 167.49, target: "view2" },
-        { type: "content", pitch: -25.54, yaw: -38.02, target: "content-peta" },
+        { pitch: -5.72, yaw: -178.5, target: "view2" },
+        { type: "content", pitch: 0.39, yaw: -71.97, target: "content-peta" },
+        { type: "content", pitch: -26.84, yaw: -24.4, target: "content-booking" },
     ],
   },
   {
@@ -143,7 +144,7 @@ export const views = [
     image: "assets/pano2.jpg",
     yawOffset: 0,
     pitchPoints: [
-          { pitch: -16.89, yaw: -122.34, target: "view1" },
+        { pitch: -27.71, yaw: 74.5, target: "view1" },
     ],
   },
 ];
