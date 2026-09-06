@@ -22,7 +22,7 @@ import { setCurrentView, getCurrentViewId, tourEvents } from "./state.js";
    preview link yang 100% akurat, tag og:title/og:description statis
    di index.html tetap perlu disamakan manual. Bagian ini tetap berguna
    untuk judul tab browser & crawler yang menjalankan JS seperti Google.) */
-const fullTitle = `${projectName} Virtual Tour | Earnest Architects`;
+const fullTitle = `${projectName} Virtual Tour | rinaldisign`;
 document.title = fullTitle;
 
 const projectTitleEl = document.getElementById("project-title");
