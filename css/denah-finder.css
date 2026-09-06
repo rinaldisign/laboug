@@ -2,9 +2,14 @@
  * Styling khusus untuk denah-finder.html.
  * Memakai ulang class .floorplan-viewport / .floorplan-canvas /
  * .viewpoint-dot dari style.css supaya persentase x/y yang
- * dihasilkan di sini PERSIS SAMA dengan yang dipakai saat tur
- * berjalan (container-nya sama-sama pakai aspect-ratio 700/1431
- * dan gambar object-fit: cover).
+ * dihasilkan di sini cocok dengan yang dipakai saat tur berjalan
+ * (gambar sama-sama pakai object-fit: contain).
+ *
+ * #denah-viewport TIDAK diberi height/aspect-ratio tetap di sini
+ * karena itu diatur otomatis oleh js/denah-finder.js begitu
+ * gambar denah selesai dimuat (aspect-ratio disamakan dengan
+ * ukuran asli file gambarnya) — supaya cocok untuk gambar denah
+ * ukuran berapapun tanpa perlu edit CSS ini.
  */
 
 html, body {
