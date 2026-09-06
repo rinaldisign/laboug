@@ -259,7 +259,7 @@ export const contents = [
   },
      {
     id: "content-video",
-    title: "Video Profil",
+    title: "Promotional Video",
     type: "youtube",
     youtubeUrl: "https://www.youtube.com/watch?v=BP53wqxsu7M",
   },
