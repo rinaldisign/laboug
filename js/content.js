@@ -235,7 +235,7 @@ export const contents = [
     id: "content-video-profil",
     title: "Video Profil Coboy Bar",
     type: "youtube",
-    youtubeUrl: "https://www.youtube.com/watch?v=xxxxxxxxxxx",
+    youtubeUrl: "https://www.youtube.com/watch?v=BP53wqxsu7M",
   },
   {
     id: "content-peta",
@@ -256,6 +256,12 @@ export const contents = [
     type: "link",
     link: "https://www.labougainvillea.com",
     linkLabel: "Book Now",
+  },
+     {
+    id: "content-video-profil",
+    title: "Video Profil Coboy Bar",
+    type: "youtube",
+    youtubeUrl: "https://www.youtube.com/watch?v=BP53wqxsu7M",
   },
 ];
 
